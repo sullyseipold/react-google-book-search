@@ -106,7 +106,6 @@ class Books extends Component {
                   infoLink={book.link}
                   >
                   <FormBtn onClick={() => this.handleSaveBook(book.id)}>Save</FormBtn>
-                  <FormBtn>Views</FormBtn>
                   </Card>
                 ))
               ) : (<h3>no books</h3>)}
